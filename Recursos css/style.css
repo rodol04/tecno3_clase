@@ -1,0 +1,161 @@
+body{ 
+    background: rgb(12, 12, 88);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    
+}
+
+main{
+
+    background: rgb(43, 56, 118);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: black 2px 2px 6px;
+}
+
+header {
+    text-align: center;
+}
+
+.contenedorFotoPerfil{
+    width: 20%; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contenedorFotoPerfil img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: white 2px solid;
+    box-shadow: black 2px 2px 5px; }
+
+h1{ 
+    font-weight: 900;
+}
+
+
+.texto{
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.interes{
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(233, 103, 52);
+    font-size: small;
+    padding: 5px;
+    width: 35%;
+}
+
+.canciones {
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ 
+.listaCanciones{
+    border: black solid 2px;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+ul li {
+    
+    margin-top: 6%;
+    font-size: small;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 76, 252);
+    text-align: start;
+    padding: 2%;
+    
+}
+
+.imgBillie img{
+
+    width: 100%;
+}
+
+
+
+.boton{
+    
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(233, 103, 52);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.boton a {
+    color: white;
+    background: none;
+}
+
+p{
+    font-size: small;
+}
+
+
+
+.BillieEilish{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.BillieEilish article{
+    width: 20%;
+    background-color: rgb(19, 26, 61);
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.BillieEilish article:hover{
+    background-color: rgb(7, 9, 20);
+    transition-duration: 300ms;
+
+}
+
+
+
+.FotoBillie img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.textoArticle{
+    font-size: small;
+}
