@@ -159,3 +159,24 @@ p{
 .textoArticle{
     font-size: small;
 }
+
+
+
+.formContact{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    }
+    
+    .formulario{
+        background:  rgb(7, 9, 20);
+        width: 90%;
+        padding: 2%;
+        box-shadow: 2px 2px 2px black;
+    
+    }
+    
+    label{ 
+        color: white;
+    }
